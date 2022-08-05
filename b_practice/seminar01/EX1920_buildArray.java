@@ -2,7 +2,7 @@ package b_practice.seminar01;
 // https://leetcode.com/problems/build-array-from-permutation/
 
 
-public class EX004_buildArray {
+public class EX1920_buildArray {
     public static void main(String[] args) {
         int[] n = {0,2,1,5,3,4};
         int[] ans = buildArray(n);

@@ -1,7 +1,7 @@
 //https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
 package b_practice.seminar01;
 
-class EX001_subtractProductAndSum {
+class EX1281_subtractProductAndSum {
     public static void main(String[] args) {
         int x = subtractProductAndSum(15);
         System.out.println(x);

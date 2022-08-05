@@ -1,7 +1,7 @@
 //https://leetcode.com/problems/merge-strings-alternately/
 package b_practice.seminar01;
 
-class EX002_mergeAlternately{
+class EX1768_mergeAlternately{
     public static void main(String[] args) {
         System.out.println(mergeAlternately("ab", "pqrs"));
     }
