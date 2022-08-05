@@ -1,7 +1,7 @@
 //https://leetcode.com/problems/add-binary/
 package b_practice.seminar01;
 
-public class EX067_addBinary {
+public class EX0067_addBinary {
     public static void main(String[] args) {
         System.out.println(addBinary("11", "1"));
         System.out.println(addBinary("10110", "111"));
