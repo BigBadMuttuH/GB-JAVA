@@ -1,5 +1,5 @@
 package b_practice.seminar01;
-// https://leetcode.com/problems/build-array-from-permutation/
+//  https://leetcode.com/problems/build-array-from-permutation/
 
 
 public class EX1920_buildArray {

@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/merge-strings-alternately/
+//  https://leetcode.com/problems/merge-strings-alternately/
 package b_practice.seminar01;
 
 class EX1768_mergeAlternately{

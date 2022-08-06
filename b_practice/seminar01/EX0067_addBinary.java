@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/add-binary/
+//  https://leetcode.com/problems/add-binary/
 package b_practice.seminar01;
 
 public class EX0067_addBinary {

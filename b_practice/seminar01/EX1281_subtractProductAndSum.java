@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
+//  https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
 package b_practice.seminar01;
 
 class EX1281_subtractProductAndSum {
