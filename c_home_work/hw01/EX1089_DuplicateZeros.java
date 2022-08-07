@@ -10,7 +10,7 @@ public class EX1089_DuplicateZeros {
 //  Explanation: After calling your function, the input array is modified to: [1,0,0,2,3,0,0,4]
         int[] arr1 = {1,0,2,3,0,4,5,0};
         duplicateZeros(arr1);
-        int[] arr2= {1,0,2,3,0,4,5,0};
+        int[] arr2= {1,0,2,3,4,4,0,0};
         duplicateZeros(arr2);
     }
     public static void duplicateZeros(int[] arr) {
