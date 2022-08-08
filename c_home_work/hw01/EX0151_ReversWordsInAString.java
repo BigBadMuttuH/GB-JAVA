@@ -11,6 +11,8 @@ public class EX0151_ReversWordsInAString {
         String str = reverseWords("the sky is blue");
         System.out.println(str);
 
+        String str2 = reverseWords2("the sky is blue");
+        System.out.println(str2);
     }
     public static String reverseWords(String s) {
         String regex = "\\b\\w+\\b";
@@ -23,6 +25,27 @@ public class EX0151_ReversWordsInAString {
             result.insert(0, matcher.group(0) + " ");
         }
         result = new StringBuilder(result.substring(0, result.length() - 1));
+        return result.toString();
+    }
+    public static String reverseWords2(String s) {
+        StringBuilder result = new StringBuilder();
+        int end = s.length() - 1;
+        while (end > 0) {
+            if (s.charAt(end) == ' ') {
+                end -= 1;
+                continue;
+            }
+            int start = end - 1;
+            while (start >= 0 && s.charAt(start) != ' ') {
+                start -= 1;
+            }
+            result.append(" ");
+            result.append(s.substring(start + 1, end + 1));
+            end = start - 1;
+        }
+        if (result.length() > 0) {
+            result.deleteCharAt(0);
+        }
         return result.toString();
     }
 }
