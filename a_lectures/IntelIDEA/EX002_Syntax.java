@@ -1,4 +1,4 @@
-package a_lectures.IJ;
+package a_lectures.IntelIDEA;
 
 public class EX002_Syntax {
     public static void main(String[] args) {

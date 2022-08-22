@@ -1,4 +1,4 @@
-package a_lectures.IJ;
+package a_lectures.IntelIDEA;
 // числа, символы, массивы, синтаксис.
 // как запустить - просто из консоли
 // java EX001_Syntax.java

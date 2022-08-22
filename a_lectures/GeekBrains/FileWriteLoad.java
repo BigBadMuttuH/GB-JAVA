@@ -1,4 +1,4 @@
-package a_lectures;
+package a_lectures.GeekBrains;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

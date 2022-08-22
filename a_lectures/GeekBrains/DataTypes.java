@@ -1,4 +1,4 @@
-package a_lectures;
+package a_lectures.GeekBrains;
 
 public class DataTypes {
     public static void main(String[] args){
