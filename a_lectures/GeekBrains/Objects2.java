@@ -1,6 +1,6 @@
-package a_lectures.GeekBrains.presentations;
+package a_lectures.GeekBrains;
 
-public class EX0002_object {
+public class Objects2 {
     public static void main(String[] args) {
         System.out.println(sum(1, 2));
         System.out.println(sum(1.0, 2));

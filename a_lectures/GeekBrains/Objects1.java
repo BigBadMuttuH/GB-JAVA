@@ -1,6 +1,6 @@
 package a_lectures.GeekBrains;
 
-public class EX0001_object {
+public class Objects1 {
     public static void main(String[] args) {
         Object o = 1; GetType(o);   // java.lang.Integer
         o = 1.2; GetType(o);        // java.lang.Double
