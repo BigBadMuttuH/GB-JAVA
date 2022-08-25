@@ -7,7 +7,7 @@ import java.util.Arrays;
  * */
 public class EX0006_Merge {
     public static void main(String[] args) {
-        int[] test1 = {6, 3, 5, 2, 4, 7, 8, 1, 9};
+        int[] test1 = {6, 3, 5, 2, 4, 7, 8, 1, 9, 0};
         System.out.println(Arrays.toString(sortArray(test1)));
     }
 
