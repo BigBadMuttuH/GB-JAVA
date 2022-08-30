@@ -10,13 +10,13 @@ public class OOP0002 {
         Point2D a = new Point2D();
         a.x = 0;
         a.y = 2;
-        System.out.println(a.toString());
+        System.out.println(a);
 
         Point2D b = new Point2D();
         b.x = 0;
         b.y = 2;
-        System.out.println(b.toString());
+        System.out.println(b);
 
-        System.out.println(distance(a, b));;
+        System.out.println(distance(a, b));
     }
 }

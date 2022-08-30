@@ -32,7 +32,7 @@ public class EX0067_addBinary {
             }
             x--;
             y--;
-            result = String.valueOf(sum) + result;
+            result = sum + result;
 //            System.out.printf(result);
         }
         // на тот случай, если все закончиться и останиться свободный разраяд

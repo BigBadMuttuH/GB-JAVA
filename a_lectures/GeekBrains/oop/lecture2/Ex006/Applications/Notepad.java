@@ -7,7 +7,7 @@ import Lesson_08.Ex006.Document.TextDocument;
 import Lesson_08.Ex006.Format.TextFormat;
 
 public class Notepad {
-    private List<TextDocument> documents;
+    private final List<TextDocument> documents;
     private int index;
 
     public Notepad() {

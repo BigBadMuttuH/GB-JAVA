@@ -52,7 +52,7 @@ public class DataTypes {
         System.out.println(Character.isDigit(chr));
         boolean flag1 = 123 <= 456;
         System.out.println(flag1);
-        boolean flag2 = 123 >= 456 || flag1; // ||-это или
+        boolean flag2 = flag1; // ||-это или
         System.out.println(flag2);
         boolean flag3 = flag1 ^ flag2; // дизюнкция
         System.out.println(flag3);

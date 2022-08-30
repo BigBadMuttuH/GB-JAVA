@@ -1,8 +1,6 @@
 package c_home_work.hw01;
 //    https://leetcode.com/problems/duplicate-zeros/
 
-import a_lectures.GeekBrains.PrintIntArray;
-
 public class EX1089_DuplicateZeros {
     public static void main(String[] args) {
 //  Input: arr = [1,0,2,3,0,4,5,0]

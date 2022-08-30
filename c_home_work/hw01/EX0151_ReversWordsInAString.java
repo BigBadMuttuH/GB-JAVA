@@ -40,7 +40,7 @@ public class EX0151_ReversWordsInAString {
                 start -= 1;
             }
             result.append(" ");
-            result.append(s.substring(start + 1, end + 1));
+            result.append(s, start + 1, end + 1);
             end = start - 1;
         }
         if (result.length() > 0) {

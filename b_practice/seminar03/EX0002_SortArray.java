@@ -33,8 +33,6 @@ public class EX0002_SortArray {
         }
         while (start <= mid) temp[k++] = nums[start++];
         while (rigth <= end) temp[k++] = nums[rigth++];
-        for (int i = start; i <= end; i++) {
-            nums[i] = temp[i - start];
-        }
+        if (end + 1 - start >= 0) System.arraycopy(temp, start - start, nums, start, end + 1 - start);
     }
 }

@@ -13,7 +13,7 @@ public class inputData {
         //  System.out.printf(out);
         System.out.printf(s);
 
-        System.out.printf("int a: ");
+        System.out.print("int a: ");
         boolean flag = iScanner.hasNextInt();
         System.out.println(flag);
         int i = iScanner.nextInt();

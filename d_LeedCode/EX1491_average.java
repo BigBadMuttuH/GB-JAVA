@@ -17,6 +17,6 @@ public class EX1491_average {
             }
             total += salary[i];
         }
-        return (double)(total - max - min) / (salary.length - 2);
+        return (total - max - min) / (salary.length - 2);
     }
 }

@@ -7,7 +7,7 @@ public class OOP0003 {
 
         Point2D a = new Point2D(0, 2);
 //        System.out.println(a.getInfo());
-        System.out.println(a.toString());
+        System.out.println(a);
         System.out.println(a.getX() + ", " + a.getY());
 
         Point2D b = new Point2D();
@@ -15,10 +15,10 @@ public class OOP0003 {
 //        b.y = 10;
         b.setX(0);
         b.setY(10);
-        System.out.println(b.toString());
+        System.out.println(b);
 
         Point2D c = new Point2D(10);
-        System.out.println(c.toString());
+        System.out.println(c);
 
 
 //        System.out.println(distance(a, b));
