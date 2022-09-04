@@ -1,13 +1,12 @@
 package b_practice.seminarOOP02.EX001;
 
-public class Animal {
+public abstract class Animal {
     private String name;
     private int age;
 
-    public Animal(String name, int age){
+    public Animal(String name, int age) {
         this.age = age;
         this.name = name;
-
     }
 
     public String getName() {
@@ -25,5 +24,13 @@ public class Animal {
     public void setAge(int age) {
         this.age = age;
     }
-//  abstreact - это то, что нужно будет потом переопределить.
+
+    @Override
+    public String toString() {
+        return String.format("%s %s, возраст %d г.",
+                this.getClass().getSimpleName(), this.name, this.age);
+    }
+
+    //  abstreact - это то, что нужно будет потом переопределить.
+    public abstract void voice();
 }

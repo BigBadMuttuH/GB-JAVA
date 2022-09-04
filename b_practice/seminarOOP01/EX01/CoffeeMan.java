@@ -5,7 +5,7 @@ public class CoffeeMan extends Person {
         super(name, age); // наследник от Person
     }
 
-    @Override // вот это вот -
+    @Override // вот это вот
     public void iLike() {
         System.out.println("Меня зовут "
                 + name + ", мне " + age + " лет. "

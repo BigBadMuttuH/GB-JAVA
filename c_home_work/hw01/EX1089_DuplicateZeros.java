@@ -1,6 +1,8 @@
 package c_home_work.hw01;
 //    https://leetcode.com/problems/duplicate-zeros/
 
+import java.util.Arrays;
+
 public class EX1089_DuplicateZeros {
     public static void main(String[] args) {
 //  Input: arr = [1,0,2,3,0,4,5,0]
@@ -29,6 +31,6 @@ public class EX1089_DuplicateZeros {
             }
             itemPointer++;
         }
-        PrintIntArray.printArray(arr);
+        System.out.println(Arrays.toString(arr));
     }
 }

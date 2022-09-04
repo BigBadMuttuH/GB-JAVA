@@ -47,8 +47,14 @@ public class Program {
          System.out.println(db);
 
          db.sort(new AgeComporator());
-
          System.out.println(db);
+
+         db.sort(new SalaryComparator());
+         System.out.println(db);
+
+//        читерская тема в Java
+//        можно не писать переопределения методов, а сделать вот так:
+         db.sort((w1, w2) -> Integer.compare(w1.age, w2.age));
 
         // #endregion
 

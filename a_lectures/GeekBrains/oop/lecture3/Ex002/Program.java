@@ -43,7 +43,7 @@ public class Program {
          latte.addComponent(new Water("Вода"));
          latte.addComponent(new Вeans("Зёрна"));
          latte.addComponent(new Milk("Молоко"));
-        
+
          Iterator<Ingredient> iterator = latte;
          while (iterator.hasNext()) {
              System.out.println(iterator.next());

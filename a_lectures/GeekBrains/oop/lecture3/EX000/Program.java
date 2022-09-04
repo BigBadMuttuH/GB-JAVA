@@ -16,6 +16,7 @@ public class Program {
         };
 
         foo1.m1();
+        foo1.m2();
 
         Foo foo2 = new Foo() {
             @Override
@@ -30,5 +31,6 @@ public class Program {
         };
 
         foo2.m1();
+        foo2.m2();
     }
 }

@@ -7,7 +7,8 @@ public interface Printable {
     default void print(ArrayList<Animal> animals){
         for (Animal animal : animals) {
 //            if (animal instanceof Cat) {}
-            System.out.println(animal.getName());
+//            System.out.println(animal.getName());
+            System.out.println(animal);
         }
     }
 }

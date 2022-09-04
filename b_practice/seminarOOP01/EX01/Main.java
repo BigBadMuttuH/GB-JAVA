@@ -17,6 +17,7 @@ public class Main {
 //        teaMan.iLike();
 //        все это можно переписать, запихнув это все в коллекцию
         List<Person> personList = Arrays.asList(person, teaMan, coffeeMan);
+//      personList + ATL+Enter --> Iterate
         for (Person p : personList) {
            p.iLike();
         }

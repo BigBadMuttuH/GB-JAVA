@@ -1,14 +1,14 @@
-package Lesson_08.Ex005.v1;
+package a_lectures.GeekBrains.oop.lecture2.Ex005.v1;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import Lesson_08.Ex005.v1.Healers.Druid;
-import Lesson_08.Ex005.v1.Healers.Healer;
-import Lesson_08.Ex005.v1.Healers.Shaman;
-import Lesson_08.Ex005.v1.Warriors.Knight;
-import Lesson_08.Ex005.v1.Warriors.Paladin;
-import Lesson_08.Ex005.v1.Warriors.Warrior;
+import a_lectures.GeekBrains.oop.lecture2.Ex005.v1.Healers.Druid;
+import a_lectures.GeekBrains.oop.lecture2.Ex005.v1.Healers.Healer;
+import a_lectures.GeekBrains.oop.lecture2.Ex005.v1.Healers.Shaman;
+import a_lectures.GeekBrains.oop.lecture2.Ex005.v1.Warriors.Knight;
+import a_lectures.GeekBrains.oop.lecture2.Ex005.v1.Warriors.Paladin;
+import a_lectures.GeekBrains.oop.lecture2.Ex005.v1.Warriors.Warrior;
 
 public class Program {
     public static void main(String[] args) {

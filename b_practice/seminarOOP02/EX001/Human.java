@@ -9,11 +9,14 @@ public class Human implements Printable {
     public Human(String name) {
         this.name = name;
     }
+
     public void append(Animal animal) {
         animals.add(animal);
     }
-
-    public void print() {
-
-    }
+//
+//    public void printAnimals() {
+//        for (Animal animal : animals ) {
+//            System.out.println(animal);
+//        }
+//    }
 }
