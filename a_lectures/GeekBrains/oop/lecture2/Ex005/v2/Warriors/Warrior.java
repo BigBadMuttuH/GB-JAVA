@@ -1,7 +1,7 @@
-package Lesson_08.Ex005.v2.Warriors;
+package a_lectures.GeekBrains.oop.lecture2.Ex005.v2.Warriors;
 
-import Lesson_08.Ex005.v2.Hero;
+import a_lectures.GeekBrains.oop.lecture2.Ex005.v2.Hero;
 
 public interface Warrior {
-    public void attack(Hero target);
+    void attack(Hero target);
 }

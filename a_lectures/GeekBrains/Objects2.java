@@ -9,9 +9,9 @@ public class Objects2 {
     }
     static Object sum(Object a, Object b) {
         if (a instanceof Double && b instanceof Double){
-            return (Object) ((double) a + (double) b);
+            return (double) a + (double) b;
         } else if (a instanceof Integer && b instanceof Integer) {
-            return (Object) ((Integer) a + (Integer) b);
+            return (Integer) a + (Integer) b;
         } else return 0;
     }
 

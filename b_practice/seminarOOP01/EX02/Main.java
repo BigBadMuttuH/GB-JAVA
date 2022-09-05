@@ -16,7 +16,7 @@ public class Main {
     }
 
     static void view(Person rootPerson) {
-        System.out.println(rootPerson.fullName);
+        System.out.println(rootPerson.getFullName());
         for (Person person : rootPerson.getFamily()) {
             if(person != null) {
                 view(person);

@@ -1,4 +1,4 @@
-package Lesson_08.Ex006.Document;
+package a_lectures.GeekBrains.oop.lecture2.Ex006.Document;
 
 public class TextDocument {
 
@@ -13,7 +13,7 @@ public class TextDocument {
     }
 
     public void addAllText(String text){
-        sb.append(text + "\n");
+        sb.append(text).append("\n");
     }
 
     public void addAllLines(String[] lines){

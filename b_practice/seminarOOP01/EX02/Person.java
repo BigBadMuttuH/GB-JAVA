@@ -1,13 +1,18 @@
 package b_practice.seminarOOP01.EX02;
 
 import java.util.ArrayList;
-import java.util.Objects;
 
 public class Person {
-    public String fullName;
-    private ArrayList<Person> family = new ArrayList<>();
-
+    private String fullName;
+    private final ArrayList<Person> family = new ArrayList<>();
     public Person(String fullName) {
+        this.fullName = fullName;
+    }
+    public String getFullName() {
+        return fullName;
+    }
+
+    public void setFullName(String fullName) {
         this.fullName = fullName;
     }
 

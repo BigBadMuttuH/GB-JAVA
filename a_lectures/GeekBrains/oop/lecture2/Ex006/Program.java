@@ -1,7 +1,7 @@
-package Lesson_08.Ex006;
+package a_lectures.GeekBrains.oop.lecture2.Ex006;
 
-import Lesson_08.Ex006.Applications.Notepad;
-import Lesson_08.Ex006.Format.*;
+import a_lectures.GeekBrains.oop.lecture2.Ex006.Applications.Notepad;
+import a_lectures.GeekBrains.oop.lecture2.Ex006.Format.*;
 
 public class Program {
     public static void main(String[] args) {

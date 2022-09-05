@@ -2,8 +2,8 @@ package a_lectures.GeekBrains.oop.lecture2.Ex002;
  
 public class Priest extends BaseHero {
 
-    private int elixir;
-    private int maxElixir;
+    private final int elixir;
+    private final int maxElixir;
 
     public Priest() {
         super(String.format("Hero_Priest #%d", ++Magician.number),
@@ -15,7 +15,12 @@ public class Priest extends BaseHero {
     public String getInfo() {
         return String.format("%s  Elixir: %d", super.getInfo(), this.elixir);
     }
-    
+
+    @Override
+    public void die() {
+        System.out.println("bb");
+    }
+
     public void attack(BaseHero target) {
         int damage = r.nextInt(10, 20);
         target.getDamage(damage);

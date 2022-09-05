@@ -2,8 +2,8 @@ package a_lectures.GeekBrains.oop.lecture2.Ex001;
  
 public class Magician extends BaseHero {
 
-    private int mana;
-    private int maxMana;
+    private final int mana;
+    private final int maxMana;
 
     public Magician() {
         super(String.format("Hero_Magician #%d", ++Magician.number),

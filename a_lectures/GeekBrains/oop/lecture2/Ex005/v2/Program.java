@@ -1,18 +1,18 @@
-package Lesson_08.Ex005.v2;
+package a_lectures.GeekBrains.oop.lecture2.Ex005.v2;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import Lesson_08.Ex005.v2.Healers.Druid;
-import Lesson_08.Ex005.v2.Healers.Healer;
-import Lesson_08.Ex005.v2.Healers.Shaman;
-import Lesson_08.Ex005.v2.Warriors.Knight;
-import Lesson_08.Ex005.v2.Warriors.Paladin;
-import Lesson_08.Ex005.v2.Warriors.Warrior;
+import a_lectures.GeekBrains.oop.lecture2.Ex005.v2.Healers.Druid;
+import a_lectures.GeekBrains.oop.lecture2.Ex005.v2.Healers.Healer;
+import a_lectures.GeekBrains.oop.lecture2.Ex005.v2.Healers.Shaman;
+import a_lectures.GeekBrains.oop.lecture2.Ex005.v2.Warriors.Knight;
+import a_lectures.GeekBrains.oop.lecture2.Ex005.v2.Warriors.Paladin;
+import a_lectures.GeekBrains.oop.lecture2.Ex005.v2.Warriors.Warrior;
 
 public class Program {
     public static void main(String[] args) {
-        
+
         //#region team1
         List<Hero> team1 = new ArrayList<>();
         team1.add(new Druid());
@@ -48,7 +48,8 @@ public class Program {
         team3.add(new Shaman());
 
         team3.get(0).healing(null);
-
+        team3.add(new God());
+        ((Warrior) (team3.get(2))).attack(team1.get(1));
 
         //#endregion
 

@@ -2,8 +2,8 @@ package a_lectures.GeekBrains.oop.lecture2.Ex003;
  
 public class Priest extends BaseHero {
 
-    private int elixir;
-    private int maxElixir;
+    private final int elixir;
+    private final int maxElixir;
 
     public Priest() {
         super(String.format("Hero_Priest #%d", ++Magician.number),

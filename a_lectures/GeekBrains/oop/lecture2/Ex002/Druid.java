@@ -1,8 +1,8 @@
 package a_lectures.GeekBrains.oop.lecture2.Ex002;
 
 public class Druid extends BaseHero {
-    private int harmony;
-    private int maxHarmony;
+    private final int harmony;
+    private final int maxHarmony;
 
     public Druid() {
         super(String.format("Hero_Druid #%d", ++Druid.number),
@@ -13,6 +13,11 @@ public class Druid extends BaseHero {
 
     public String getInfo() {
         return String.format("%s  Harmony: %d", super.getInfo(), this.harmony);
+    }
+
+    @Override
+    public void die() {
+        System.out.print("v");
     }
 
     public void healing(BaseHero target) {

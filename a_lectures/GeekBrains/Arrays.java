@@ -17,7 +17,7 @@ public class Arrays {
 
     // многомерные массивы
     public static void myArray2() {
-        int[] arr[] = new int[3][5];
+        int[][] arr = new int[3][5];
         for (int[] line : arr) {
             for (int item : line) {
                 System.out.printf("%d ", item);
