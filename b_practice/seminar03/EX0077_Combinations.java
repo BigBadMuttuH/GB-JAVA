@@ -11,10 +11,12 @@ public class EX0077_Combinations {
     }
 
     static List<List<Integer>> ans = new ArrayList<>();
+
     public static List<List<Integer>> combine(int n, int k) {
-       genComb(n, k, 0, new ArrayList<>());
-       return ans;
+        genComb(n, k, 0, new ArrayList<>());
+        return ans;
     }
+
     public static void genComb(int n, int k, int prevEl, List<Integer> curComb) {
         if (curComb.size() == k) {
             ans.add(new ArrayList<>(curComb));

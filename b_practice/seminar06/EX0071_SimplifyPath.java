@@ -19,9 +19,9 @@ public class EX0071_SimplifyPath {
                 if (!stack.isEmpty()) {
                     stack.pop();
                 }
-            } else if (!".".equals(token) ) {
+            } else if (!".".equals(token)) {
                 if (!token.isBlank()) {
-                stack.push(token);
+                    stack.push(token);
                 }
             }
 
@@ -29,10 +29,9 @@ public class EX0071_SimplifyPath {
         ans.append("/");
 
         while (!stack.isEmpty()) {
-            ans.append(stack.pop())
-               .append("/");
+            ans.append(stack.pop()).append("/");
         }
-        ans.deleteCharAt(ans.length() - 1   );
+        ans.deleteCharAt(ans.length() - 1);
 
         return ans.toString();
     }

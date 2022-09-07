@@ -10,7 +10,7 @@ class EX1281_subtractProductAndSum {
     public static int subtractProductAndSum(int n) {
         int productOfDigits = 1;
         int sumOfDigits = 0;
-        while (n > 0){
+        while (n > 0) {
             productOfDigits *= n % 10;
             sumOfDigits += n % 10;
             n = Math.abs(n / 10);

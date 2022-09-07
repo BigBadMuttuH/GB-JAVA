@@ -9,6 +9,7 @@ public class EX0067_addBinary {
         System.out.println(addBinary("11111110010101", "1010101010"));
 
     }
+
     public static String addBinary(String a, String b) {
         int x = a.length() - 1;
         int y = b.length() - 1;
