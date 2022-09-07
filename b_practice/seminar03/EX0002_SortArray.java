@@ -4,12 +4,13 @@ import java.util.Arrays;
 
 public class EX0002_SortArray {
     public static void main(String[] args) {
-        int[] n = new int[] {5, 4, 3, 2, 1};
+        int[] n = new int[]{5, 4, 3, 2, 1};
 
-        mergeSort(n, 0, n.length -1);
+        mergeSort(n, 0, n.length - 1);
         System.out.println(Arrays.toString(n));
 
     }
+
     static void mergeSort(int[] nums, int start, int end) {
         if (start >= end) return;
         int mid = (start + end) / 2;
@@ -17,7 +18,7 @@ public class EX0002_SortArray {
         mergeSort(nums, start, mid);
         mergeSort(nums, mid + 1, end);
 
-        merge(nums,start, mid, end);
+        merge(nums, start, mid, end);
     }
 
     static void merge(int[] nums, int start, int mid, int end) {
