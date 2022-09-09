@@ -8,8 +8,8 @@ public class EX0191_NumberOfBits {
     public static int hammingWeight(int n) {
         int count = 0;
         for (int i = 31; i >= 0 ; i--) {
-           int bitmask = ( 1 << i);
-           if (( n & bitmask) != 0 ) count++;
+            int bitmask = ( 1 << i);
+            if (( n & bitmask) != 0 ) count++;
         }
         return count;
     }
