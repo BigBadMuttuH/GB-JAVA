@@ -71,7 +71,7 @@
 ![StringsDanger5](StringDanger5.png "StringsDanger5")
 
 ![StringsFormat](StringFormat.png "StringsFormat")
-![StringsFormat](StringFormat.png "StringsFormat")
+![StringsFormat](StringFormat1.png "StringsFormat")
 ![MessageFormat](MessageFormat.png "MessageFormat")
 
 ![StringsConcat](StringConcat1.png "StringsConcat")
