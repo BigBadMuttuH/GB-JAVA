@@ -1,0 +1,23 @@
+package a_lectures.GeekBrains.Part2OOP.lecture2.Ex002;
+ 
+public class Magician extends BaseHero {
+
+    private final int mana;
+    private final int maxMana;
+
+    public Magician() {
+        super(String.format("Hero_Magician #%d", ++Magician.number),
+                Magician.r.nextInt(100, 200));
+        this.maxMana = Magician.r.nextInt(50, 150);
+        this.mana = maxMana;
+    }
+
+    public String getInfo() {
+        return String.format("%s  Mana: %d",super.getInfo(), this.mana);
+    }
+
+    @Override
+    public void die() {
+        System.out.println("вы мертвы.");
+    }
+}
