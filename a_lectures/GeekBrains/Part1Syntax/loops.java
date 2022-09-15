@@ -1,4 +1,4 @@
-package a_lectures.GeekBrains.Part1Syntsx;
+package a_lectures.GeekBrains.Part1Syntax;
 
 public class loops {
     public static void main(String[] args) {

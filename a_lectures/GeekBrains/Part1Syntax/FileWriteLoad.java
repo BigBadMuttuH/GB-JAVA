@@ -1,4 +1,4 @@
-package a_lectures.GeekBrains.Part1Syntsx;
+package a_lectures.GeekBrains.Part1Syntax;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
