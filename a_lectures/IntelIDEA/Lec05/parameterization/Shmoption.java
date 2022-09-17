@@ -1,6 +1,6 @@
 package a_lectures.IntelIDEA.Lec05.parameterization;
 
-class Shmoption<T> {
+public class Shmoption<T> {
     T value;
 
     public Shmoption(T value) {
