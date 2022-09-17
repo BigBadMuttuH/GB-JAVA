@@ -1,4 +1,4 @@
-package b_practice.seminarOOP06SOLI.Ex00;
+package b_practice.seminarOOP06SOLID.Ex00;
 
 public class StudentStore {
     public void saveStudent(Student student){

@@ -1,4 +1,4 @@
-package b_practice.seminarOOP06SOLI.Ex01;
+package b_practice.seminarOOP06SOLID.Ex01;
 
 //public class Circle implements Shape{
 //    @Override
