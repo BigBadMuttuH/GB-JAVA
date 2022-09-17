@@ -1,4 +1,4 @@
-package a_lectures.GeekBrains.Part1Syntsx;
+package a_lectures.GeekBrains.Part1Syntax;
 
 public class Objects1 {
     public static void main(String[] args) {
