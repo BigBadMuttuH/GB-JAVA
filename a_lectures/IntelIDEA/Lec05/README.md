@@ -2,6 +2,7 @@
 
 ![Exceptions](Exceptions.png "Exceptions")
 ![Exceptions](MillExceptions.png "Exceptions")
+![Exceptions](Exceptions9.png "Exceptions")
 (синенькие методы, должны быть обязательно обработаны)
 ![Exceptions](ConstrExceptions.png "Exceptions")
 ![Exceptions](HaveExceptions.png "Exceptions")

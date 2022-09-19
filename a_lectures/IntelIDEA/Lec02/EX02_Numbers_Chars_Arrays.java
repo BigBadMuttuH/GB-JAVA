@@ -21,7 +21,7 @@ public class EX02_Numbers_Chars_Arrays {
         var f = 0b1010_1010_0000_1111; // двоичное число
 /*        2/3 = 0; 2.0/3 = 0.6666...
        "akfj".hashCode()
-       //  тут какой-то комментарий и неожиданно \u000a System.out.println("Bugagag");
+//         тут какой-то комментарий и неожиданно \u000a System.out.println("Bugagag");
        Character.isDigit('5️⃣')
        +0.0, -0.0 вроде как равны, но через toString() нет.
        NaN(Double.Nan) - не больше, ни меньше, не равно самому себе и какому-либо числу.
